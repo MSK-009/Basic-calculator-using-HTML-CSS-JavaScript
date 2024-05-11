@@ -1,0 +1,125 @@
+.calculator {
+    width: 348px;
+    height: 520px;
+    border: 2px solid;
+    border-radius: 34px;
+    /* background-image: url('calculator.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    background-color: #483636;
+}
+
+#output {
+    border: 2px solid;
+    border-radius: 16px;
+    width: 305px;
+    height: 95px;
+    margin-top: 23px;
+    margin-left: 22px;
+    background-color: white;
+    text-align: right;
+    font-size: 70px;
+    text-overflow: clip;
+    overflow: scroll hidden;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.row1 {
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 50px;
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    ;
+
+}
+
+.row2 {
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 50px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.row3 {
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 50px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.row4 {
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 50px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.row5 {
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 50px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+button {
+    width: 70px;
+    height: 63px;
+    border: none;
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #836368;
+    color: white;
+    font-size: 40px;
+}
+
+button:active {
+    color: gray;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px none;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+footer{
+    font-size: 9px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    margin: 0px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+}
